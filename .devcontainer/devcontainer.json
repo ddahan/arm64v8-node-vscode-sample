@@ -2,13 +2,10 @@
 	"name": "my project",
 	"build": {
 		"dockerfile": "Dockerfile",
-		"args": {
-			"VARIANT": "10"
-		}
 	},
 	// Set *default* container specific settings.json values on container create.
 	"settings": {
-		"terminal.integrated.shell.linux": "/bin/bash"
+		"terminal.integrated.shell.linux": "/bin/zsh"
 	},
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
