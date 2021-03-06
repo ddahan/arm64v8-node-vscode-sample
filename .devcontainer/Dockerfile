@@ -1,5 +1,5 @@
 # [Choice] Node.js version: https://hub.docker.com/r/arm64v8/node/
-ARG VARIANT="15-buster"
+ARG VARIANT="14-buster"
 FROM arm64v8/node:${VARIANT}
 
 # Install needed packages, yarn, nvm and setup non-root user. Use a separate RUN statement to add your own dependencies.
